@@ -185,9 +185,7 @@ footer h3 {
 
     main {
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        padding: 1rem;
+        grid-template-columns: repeat(2, 1fr);
         height: auto;
     }
 
